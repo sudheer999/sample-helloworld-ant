@@ -35,12 +35,4 @@
     <target name="clean-build" depends="clean,jar"/>
 
     <target name="main" depends="clean,run"/>
-  <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>buildsrv1.dikshatech.com-releases</name>
-        <url>http://172.16.1.20:8181/artifactory/libs-release-local</url>
-    </repository>
-</distributionManagement>
-
-</project>
+ </project>
